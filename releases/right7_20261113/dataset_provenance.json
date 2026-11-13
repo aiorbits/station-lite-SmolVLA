@@ -1,0 +1,115 @@
+{
+  "train": {
+    "view_version": "lumos_woodblock_right7_v1",
+    "source_split": "train",
+    "repo_id": "lumos/lumos_woodblock_right7_train35_v1",
+    "manifest_sha256": "a940883ec8437a5114efc299e149a492317b05758410c0ed39441af404a0fc96",
+    "episode_ids": [
+      "zc0_touch_20261027_134658_suzhou2_001",
+      "zc0_touch_20261027_134728_suzhou2_001",
+      "zc0_touch_20261027_134804_suzhou2_001",
+      "zc0_touch_20261027_134835_suzhou2_001",
+      "zc0_touch_20261027_135006_suzhou2_001",
+      "zc0_touch_20261027_135046_suzhou2_001",
+      "zc0_touch_20261027_135111_suzhou2_001",
+      "zc0_touch_20261027_135203_suzhou2_001",
+      "zc0_touch_20261027_135348_suzhou2_001",
+      "zc0_touch_20261027_135419_suzhou2_001",
+      "zc0_touch_20261027_135502_suzhou2_001",
+      "zc0_touch_20261027_135919_suzhou2_001",
+      "zc0_touch_20261027_140042_suzhou2_001",
+      "zc0_touch_20261027_140115_suzhou2_001",
+      "zc0_touch_20261027_140146_suzhou2_001",
+      "zc0_touch_20261027_140221_suzhou2_001",
+      "zc0_touch_20261027_140332_suzhou2_001",
+      "zc0_touch_20261027_140356_suzhou2_001",
+      "zc0_touch_20261027_140446_suzhou2_001",
+      "zc0_touch_20261027_140512_suzhou2_001",
+      "zc0_touch_20261027_140627_suzhou2_001",
+      "zc0_touch_20261027_140651_suzhou2_001",
+      "zc0_touch_20261027_140738_suzhou2_001",
+      "zc0_touch_20261027_140801_suzhou2_001",
+      "zc0_touch_20261027_140851_suzhou2_001",
+      "zc0_touch_20261027_140932_suzhou2_001",
+      "zc0_touch_20261027_140959_suzhou2_001",
+      "zc0_touch_20261027_141027_suzhou2_001",
+      "zc0_touch_20261027_141201_suzhou2_001",
+      "zc0_touch_20261027_141222_suzhou2_001",
+      "zc0_touch_20261027_141240_suzhou2_001",
+      "zc0_touch_20261027_141322_suzhou2_001",
+      "zc0_touch_20261027_141341_suzhou2_001",
+      "zc0_touch_20261027_141400_suzhou2_001",
+      "zc0_touch_20261027_141420_suzhou2_001"
+    ],
+    "episodes": 35,
+    "frames": 13231,
+    "state_source_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "action_source_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "cameras": [
+      "observation.images.cam_high",
+      "observation.images.cam_right_wrist"
+    ],
+    "task_text": "Pick up the red wooden block from the white grid and place it on the brown target area.",
+    "purpose": "Single-right-arm state/action ablation; original 14D data remains unchanged."
+  },
+  "holdout": {
+    "view_version": "lumos_woodblock_right7_v1",
+    "source_split": "holdout",
+    "repo_id": "lumos/lumos_woodblock_right7_holdout10_v1",
+    "manifest_sha256": "a940883ec8437a5114efc299e149a492317b05758410c0ed39441af404a0fc96",
+    "episode_ids": [
+      "zc0_touch_20261027_134619_suzhou2_001",
+      "zc0_touch_20261027_134914_suzhou2_001",
+      "zc0_touch_20261027_135259_suzhou2_001",
+      "zc0_touch_20261027_140019_suzhou2_001",
+      "zc0_touch_20261027_140251_suzhou2_001",
+      "zc0_touch_20261027_140554_suzhou2_001",
+      "zc0_touch_20261027_140829_suzhou2_001",
+      "zc0_touch_20261027_141049_suzhou2_001",
+      "zc0_touch_20261027_141137_suzhou2_001",
+      "zc0_touch_20261027_141301_suzhou2_001"
+    ],
+    "episodes": 10,
+    "frames": 3705,
+    "state_source_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "action_source_indices": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "cameras": [
+      "observation.images.cam_high",
+      "observation.images.cam_right_wrist"
+    ],
+    "task_text": "Pick up the red wooden block from the white grid and place it on the brown target area.",
+    "purpose": "Single-right-arm state/action ablation; original 14D data remains unchanged."
+  }
+}

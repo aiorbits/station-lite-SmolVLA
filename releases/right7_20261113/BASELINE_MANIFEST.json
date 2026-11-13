@@ -1,0 +1,310 @@
+{
+  "baseline_id": "station_lite_right7_new9_20261113",
+  "source_files": [
+    {
+      "path": "station_lite_smolvla_right7_server.py",
+      "sha256": "741b4cb2024207c45e80bf5132da1fcb77a6f1acdb41fd51d06d0a337a8e0025",
+      "bytes": 8633,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "station_lite_smolvla_right7_guarded.py",
+      "sha256": "9c6adc57c403cd3bc14237a7041de19e7b0b4e10a96a4494f7117a3e2223cc1f",
+      "bytes": 144109,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "station_lite_smolvla_single_chunk.py",
+      "sha256": "e3fbc3f1ddc5274b42d7e77da8910b95cea3e9297a5f450a1c2930a7d6a78ed2",
+      "bytes": 18382,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "build_grasp_replay_cases.py",
+      "sha256": "fe4e2693a52551a23fb51eb766d45ff31e8e2f1ec6f774df9dbbfd214a4dcf35",
+      "bytes": 65094,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "joint_trace.py",
+      "sha256": "6d4abc2462a7a868a150f69e4c2512adb11730cb1951554296fc3d0aa16385a3",
+      "bytes": 12416,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_right7_guarded_contract.py",
+      "sha256": "f3dcbd5f718dc8bfbaffb7feba60968a9f2c515014d06131c191e420250a70b2",
+      "bytes": 98651,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_adaptive_phase_timing.py",
+      "sha256": "8955074337bb6116eabe4e2aa29877269f2645bb4c3ed7af71f2d041432d309d",
+      "bytes": 2089,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_joint_trace.py",
+      "sha256": "ea0c3054c70ee7281f6d40050a8a84b70227408893de6ed4a1c33a152a15eec3",
+      "bytes": 3719,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "convert_right_only_dataset.py",
+      "sha256": "6335f922c928fd219c247308566aa7c3aa520ab30f2c90283b92bf2c2c311810",
+      "bytes": 5280,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "train_right_only_woodblock.py",
+      "sha256": "0e9012a4924fbb16b2f2b2864595b095269cc4c59f9898bab8f73066122cdaa4",
+      "bytes": 3695,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "dataset_standard.py",
+      "sha256": "f8941a66935008cd7be8f9545e41f08545392cb82d352ffb613d2f62fc503aaf",
+      "bytes": 12651,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "tools/verify_baseline.py",
+      "sha256": "aed47bd7c329a660c227f582e4e02b6c68e1209308652999baf70fe33b156c70",
+      "bytes": 2332,
+      "roles": [
+        "host",
+        "robot"
+      ]
+    }
+  ],
+  "checkpoint_files": [
+    {
+      "path": "config.json",
+      "sha256": "87a7968421e8b2cbbc477d5dd33027d19da446fc081013bd38fb24a7cce68b08",
+      "bytes": 2532
+    },
+    {
+      "path": "model.safetensors",
+      "sha256": "4856da1646e4c7b33d6246eb0e593e574dcf33e7b4eddf1698080c4cb6eb2eb3",
+      "bytes": 906712552
+    },
+    {
+      "path": "policy_postprocessor.json",
+      "sha256": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+      "bytes": 660
+    },
+    {
+      "path": "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "sha256": "599690fafc0ba9b6b3c935f5b4f8f844548dba6021070b7fd06d95d4e5fc6ec7",
+      "bytes": 7664
+    },
+    {
+      "path": "policy_preprocessor.json",
+      "sha256": "1f7c8b17b7f332169b9f06877c2eee261329b5ffdc723251586fac6102e3fcba",
+      "bytes": 2089
+    },
+    {
+      "path": "policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "sha256": "39cd3a32db48c12cd187a2370eb6ba3a3e544f665358af094b272cae78ed6f3e",
+      "bytes": 7672
+    },
+    {
+      "path": "tokenizer/chat_template.jinja",
+      "sha256": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+      "bytes": 403
+    },
+    {
+      "path": "tokenizer/tokenizer.json",
+      "sha256": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+      "bytes": 3548738
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "sha256": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3",
+      "bytes": 838
+    },
+    {
+      "path": "train_config.json",
+      "sha256": "c1e65e1f8a6adcf0c9dbf4773564ac4357e587d9c4811771e4055afb24ba10a2",
+      "bytes": 8750
+    }
+  ],
+  "checkpoint_reference_path": "/home/hans/cc/ckpt/smolvla_woodblock_right7_train35_v1_10000/checkpoints/010000/pretrained_model",
+  "policy_contract": {
+    "state": "right joints 6 radians + measured gripper metres",
+    "action": "absolute EEF XYZ metres + extrinsic xyz Euler radians + gripper metres",
+    "chunk_size": 50,
+    "physical_cameras": [
+      "cam_high",
+      "cam_right_wrist"
+    ]
+  },
+  "data": {
+    "train_episodes": 35,
+    "train_frames": 13231,
+    "diagnostic_holdout_episodes": 10,
+    "diagnostic_holdout_frames": 3705,
+    "holdout_is_untouched_final_test": false,
+    "local_training_object": "red block",
+    "local_training_orientation_source": "Operator collection protocol; no per-frame yaw audit"
+  },
+  "training": {
+    "steps": 10000,
+    "batch_size": 1,
+    "num_workers": 0,
+    "seed": 42,
+    "save_freq": 2000,
+    "optimizer": {
+      "type": "adamw",
+      "lr": 0.0001,
+      "weight_decay": 1e-10,
+      "grad_clip_norm": 10.0,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "eps": 1e-08
+    },
+    "scheduler": {
+      "type": "cosine_decay_with_warmup",
+      "num_warmup_steps": 1000,
+      "num_decay_steps": 30000,
+      "peak_lr": 0.0001,
+      "decay_lr": 2.5e-06
+    }
+  },
+  "observed_lerobot_commit": "3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e",
+  "lerobot_tracked_src_and_pyproject_diff_empty": true,
+  "base_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "vlm_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "live_evidence": "8 operator-reported successes with matching embedded logs; original per-run captures not yet locally archived",
+  "review_validation": {
+    "software_contracts": "66/66 under system Python",
+    "new_cuda_model_run": "NOT RUN",
+    "fresh_installation": "NOT RUN",
+    "robot_motion": "NOT RUN"
+  },
+  "original_new9_source_files": [
+    {
+      "path": "station_lite_smolvla_right7_server.py",
+      "sha256": "741b4cb2024207c45e80bf5132da1fcb77a6f1acdb41fd51d06d0a337a8e0025",
+      "bytes": 8633,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "station_lite_smolvla_right7_guarded.py",
+      "sha256": "b9a9e6b3b714708c00da985620879bfc3df64400164cf13aeb8378f98b6dedc8",
+      "bytes": 144100,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "station_lite_smolvla_single_chunk.py",
+      "sha256": "e3fbc3f1ddc5274b42d7e77da8910b95cea3e9297a5f450a1c2930a7d6a78ed2",
+      "bytes": 18382,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "build_grasp_replay_cases.py",
+      "sha256": "2c25839e4044a07977bb487ad0e96eb3c3f18726b37054f40bcfb928738e6941",
+      "bytes": 65004,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "joint_trace.py",
+      "sha256": "6d4abc2462a7a868a150f69e4c2512adb11730cb1951554296fc3d0aa16385a3",
+      "bytes": 12416,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_right7_guarded_contract.py",
+      "sha256": "52036d6c8642355f89e6d7ce178d716710cccff9638df55663b0e275c99a2265",
+      "bytes": 98573,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_adaptive_phase_timing.py",
+      "sha256": "8955074337bb6116eabe4e2aa29877269f2645bb4c3ed7af71f2d041432d309d",
+      "bytes": 2089,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "test_joint_trace.py",
+      "sha256": "ea0c3054c70ee7281f6d40050a8a84b70227408893de6ed4a1c33a152a15eec3",
+      "bytes": 3719,
+      "roles": [
+        "robot"
+      ]
+    },
+    {
+      "path": "convert_right_only_dataset.py",
+      "sha256": "6335f922c928fd219c247308566aa7c3aa520ab30f2c90283b92bf2c2c311810",
+      "bytes": 5280,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "train_right_only_woodblock.py",
+      "sha256": "0e9012a4924fbb16b2f2b2864595b095269cc4c59f9898bab8f73066122cdaa4",
+      "bytes": 3695,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "dataset_standard.py",
+      "sha256": "f8941a66935008cd7be8f9545e41f08545392cb82d352ffb613d2f62fc503aaf",
+      "bytes": 12651,
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "path": "tools/verify_baseline.py",
+      "sha256": "aed47bd7c329a660c227f582e4e02b6c68e1209308652999baf70fe33b156c70",
+      "bytes": 2332,
+      "roles": [
+        "host",
+        "robot"
+      ]
+    }
+  ],
+  "publication_edition": "English presentation, 2026-11-13",
+  "presentation_changes": "English error text; Unicode escapes preserve legacy color aliases/tests. No robot control logic changes. Legacy documentation has clearly labeled English publication summaries."
+}
